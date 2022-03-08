@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap");
+
+.firstcontainer {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 1.5fr;
+}
+
+body {
+  background-color: rgb(147, 147, 224);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* .fourth,
+.five {
+  margin-top: 400px;
+} */
+/* .container {
+} */
+.secondcon {
+  margin-bottom: 350px;
+  margin-top: -240px;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+.first,
+.second,
+.third,
+.fourth,
+.five {
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+/* img {
+  margin-left: 70px;
+  border: 3px solid white;
+  border-radius: 100%;
+} */
+
+.first {
+  background-color: hsl(263, 55%, 52%);
+  height: 300px;
+}
+
+/*these are common things*/
+.first-info {
+  display: flex;
+  color: white;
+}
+span {
+  margin-top: 20px;
+}
+
+img {
+  /* border: 2px solid white; */
+  margin: 20px 10px 0;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+.first-span {
+  color: white;
+  opacity: 50%;
+  margin-top: 20px;
+}
+.firt-paragr {
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+.first-secondprag {
+  margin-left: 20px;
+  color: white;
+  opacity: 70%;
+}
+.second {
+  background-color: hsl(217, 19%, 35%);
+  height: 300px;
+}
+.names {
+  margin: 24px 3px 0;
+}
+/*this is third speacila proterties*/
+.third {
+  background-color: hsl(0, 0%, 100%);
+  margin-left: 30px;
+}
+.third-span {
+  color: black;
+  opacity: 50%;
+  margin-top: 20px;
+}
+.third-paragrphs {
+  font-size: 20px;
+  margin-left: 20px;
+  color: black;
+}
+.third-secondprage {
+  margin-left: 20px;
+  color: black;
+  opacity: 70%;
+}
+
+/*four spacealthings*/
+
+.fourth {
+  background-color: hsl(0, 0%, 100%);
+  height: 300px;
+}
+.five {
+  background-color: hsl(219, 29%, 14%);
+  margin-right: 310px;
+}
+.names3 {
+  margin: 24px 3px 0;
+  color: black;
+}
